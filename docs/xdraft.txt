@@ -1,0 +1,45 @@
+article:
+- id
+- dtcreated
+- dtupdated
+- title
+- description
+- width
+- hight
+- material
+- weight
+- price
+- type (original, print, etc.)
+- quantity (or total and sold???)
+
+user:
+- id??
+- dtcreated
+- dtupdated
+- email
+- password
+- orders.id
+
+order:
+- id
+- dtcreated
+- dtupdated
+- user.id ???
+- billing address
+- shipping address
+- articles
+
+basket: ???
+- id
+- dtcreated
+- dtupdated
+
+
+session:
+- id
+- dtcreated
+- dtupdated
+- user.id
+- cookie
+
+
